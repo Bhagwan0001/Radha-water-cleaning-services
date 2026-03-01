@@ -34,6 +34,9 @@ h3,
 h4 {
   font-family: "Raleway", sans-serif;
 }
+.intro .intro-text {
+  padding: 0 20px;
+}
 
 h2 {
   text-transform: uppercase;
@@ -267,33 +270,33 @@ a:focus,
 }
 
 /* Header Section */
-/* .intro {
-  width: 100%;
-  height: 100vh;
-  padding: 0;
-  background: url(../img/background-image.png) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-} */
 .intro {
   width: 100%;
   min-height: 100vh;
   background: url(../img/background-image.png) center center no-repeat;
   background-size: cover;
-  display: flex;
+  position: relative;
 }
 
+.overlay {
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro-content {
+  padding: 0 40px;
+}
 /* .intro {
   width: 100%;
-  margin: 0;
   min-height: 100vh;
-  background-image: url(../img/background-image.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url(../img/background-image.png) center center no-repeat;
   background-size: cover;
+  display: flex;
 } */
 
 .overlay {
@@ -808,6 +811,86 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+@media (max-width: 1200px) {
+
+  .intro .intro-text {
+    padding: 0 30px;
+  }
+
+  .intro h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .intro p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .intro .intro-text {
+    padding: 0 25px;
+  }
+
+  .intro h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .intro p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .intro .intro-text {
+    padding: 0 18px;
+  }
+
+  .intro h1 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .intro p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .intro-content {
+    padding: 0 30px;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro-content {
+    padding: 0 20px;
+  }
+
+  .intro h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .intro p {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
 
