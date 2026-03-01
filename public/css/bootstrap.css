@@ -6765,4 +6765,46 @@ button.close {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+/* ===== MOBILE FIX (220px – 470px) ===== */
+@media (max-width: 480px) {
+
+  .intro {
+    height: auto;     
+    min-height: 100vh;         /* remove fixed height */
+    padding: 60px 15px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .overlay {
+    padding: 20px 10px;
+  }
+
+  .intro h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .intro p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+
+  .btn-custom {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  #menu a.navbar-brand {
+    font-size: 14px;
+  }
+
+  #about img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
