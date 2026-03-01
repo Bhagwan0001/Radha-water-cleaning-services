@@ -1,34 +1,137 @@
-# React JS Landing Page Template
+# Radha Water Tank Cleaning Services Website
 
-**
+This is a fully responsive React.js website for Radha Water Tank Cleaning Services based in Jaipur, Rajasthan.
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+The website includes:
+- Hero Section
+- About Us
+- Services
+- Gallery
+- Testimonials
+- Contact Section
 
-**
+---
 
+## 🚀 Getting Started
 
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
+Follow the steps below to run this project locally on your system.
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+---
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+## 1️⃣ Clone the Repository
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+```
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+---
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+## 2️⃣ Navigate to the Project Folder
 
-##### Issaaf kattan
+```bash
+cd your-repository-name
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+Using npm:
+
+```bash
+npm install
+```
+
+Or using yarn:
+
+```bash
+yarn install
+```
+
+---
+
+## 4️⃣ Start Development Server
+
+Using npm:
+
+```bash
+npm start
+```
+
+Or using yarn:
+
+```bash
+yarn start
+```
+
+---
+
+The project will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📦 Build for Production
+
+To create an optimized production build:
+
+Using npm:
+
+```bash
+npm run build
+```
+
+Using yarn:
+
+```bash
+yarn build
+```
+
+The production files will be generated inside the `build` folder.
+
+---
+
+## 🛠 Technologies Used
+
+- React.js
+- Bootstrap
+- CSS
+- Smooth Scroll
+- Font Awesome
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+  components/
+  data/
+  img/
+  App.js
+  App.css
+public/
+  img/
+```
+
+---
+
+## 📞 Contact Information
+
+Radha Water Tank Cleaning Services  
+Address: J-18 Block B, Vaishali Nagar, Jaipur, Rajasthan - 302006  
+Phone: +91 8824437605  
+Email: jagmal471@gmail.com  
+
+---
+
+## 👨‍💻 Developer
+
+Website developed using React.js for professional water tank cleaning service business.
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
