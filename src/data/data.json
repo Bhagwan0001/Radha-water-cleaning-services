@@ -1,184 +1,169 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Professional Water Tank Cleaning in Jaipur",
+    "paragraph": "We provide expert water tank cleaning services across Jaipur to ensure safe, hygienic, and bacteria-free drinking water for your home, apartment, office, school, and commercial property. Our trained team uses advanced machines and safe cleaning methods to deliver 100% satisfaction."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "We are a trusted water tank cleaning service provider in Jaipur specializing in cleaning underground and overhead drinking water tanks. Over time, water tanks accumulate dirt, algae, bacteria, sludge, and harmful contaminants that can affect your health. Our professional team uses modern high-pressure machines, vacuum pumps, and eco-friendly disinfectants to thoroughly clean and sanitize your tank. We follow a complete step-by-step cleaning process to ensure your family or customers receive clean and safe water every day.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Experienced and trained cleaning professionals",
+      "Advanced high-pressure jet cleaning machines",
+      "Safe and eco-friendly disinfectants",
+      "Affordable pricing with transparent service"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Suitable for homes, apartments, schools, and offices",
+      "Quick service with minimal water wastage",
+      "Complete sludge removal and sanitization",
+      "100% customer satisfaction guarantee"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Residential Tank Cleaning Service ",
+      "largeImage": "img/water-machine.png",
+      "smallImage": "img/water-machine.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Overhead Water Tank Cleaning",
+      "largeImage": "img/person-with-machine.png",
+      "smallImage": "img/person-with-machine.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "High-Pressure Jet Cleaning Process",
+      "largeImage": "img/clean-tank.jpeg",
+      "smallImage": "img/clean-tank.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Sludge Removal & Vacuum Cleaning",
+      "largeImage": "img/tank-cleaning.png",
+      "smallImage": "img/tank-cleaning.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Tank Disinfection & Sanitization",
+      "largeImage": "img/staff.png",
+      "smallImage": "img/staff.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Underground Water Tank Cleaning",
+      "largeImage": "img/tank-third.png",
+      "smallImage": "img/tank-third.png"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-tint",
+      "name": "Overhead Water Tank Cleaning",
+      "text": "Complete cleaning and sanitization of overhead tanks using high-pressure machines and safe disinfectants to remove dirt, algae, and bacteria."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Underground Tank Cleaning",
+      "text": "Deep cleaning of underground water storage tanks with sludge removal, vacuum suction, scrubbing, and proper chemical disinfection."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "Machine-Based Cleaning",
+      "text": "We use modern equipment and advanced cleaning machines to ensure thorough and efficient tank cleaning with minimal manual handling."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shield",
+      "name": "Tank Disinfection & Sanitization",
+      "text": "Application of eco-friendly disinfectants to eliminate harmful bacteria and viruses, ensuring safe drinking water for your family."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Residential & Apartment Services",
+      "text": "Professional cleaning services for houses, apartments, and housing societies across Jaipur at affordable prices."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-university",
+      "name": "Commercial & Institutional Cleaning",
+      "text": "Water tank cleaning for schools, offices, hospitals, and commercial properties with reliable scheduling and quick turnaround time."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/men-1.jpg",
+      "text": "The team arrived on time and cleaned our overhead tank thoroughly. Water quality improved immediately after the cleaning.",
+      "name": "Rohit Sharma"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/women-1.jpg",
+      "text": "Very professional staff with proper machines. They explained the full cleaning process and completed the work neatly and efficiently.",
+      "name": "Priya Mehta"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/men-2.jpg",
+      "text": "Affordable pricing and reliable service. Our apartment society now regularly uses their water tank cleaning service every year.",
+      "name": "Anil Gupta"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/women-2.jpg",
+      "text": "Highly satisfied with their machine-based cleaning process. The work was hygienic, systematic, and completed on time.",
+      "name": "Suman Jain"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/men-3.jpg",
+      "text": "Quick response and timely service. The tank was very dirty, but after cleaning it looked completely fresh and hygienic.",
+      "name": "Sumit Verma"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/men-4.jpg",
+      "text": "Best water tank cleaning service in Jaipur. Professional team, genuine pricing, and excellent overall service quality.",
+      "name": "Rajesh Singh"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Rajesh Kumar",
+      "job": "Operations Manager"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Mahendra Singh",
+      "job": "Senior Cleaning Technician"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Sunil Sharma",
+      "job": "Machine Operator"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Amit Verma",
+      "job": "Field Supervisor"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "J-18, vaishali nagar, Jaipur, Rajasthan - 302006",
+    "phone": "+91 8824437605",
+    "email": "jagmal471@gmail.com",
+    "facebook": "https://facebook.com/",
+    "twitter": "https://twitter.com/",
+    "youtube": "https://youtube.com/"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-clock-o",
+      "title": "Quick & On-Time Service",
+      "text": "We value your time and provide scheduled tank cleaning services across Jaipur with punctual and reliable execution."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-check-circle",
+      "title": "Complete Hygiene Assurance",
+      "text": "Our step-by-step cleaning process ensures removal of dirt, sludge, bacteria, and harmful contaminants."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-users",
+      "title": "Experienced Professional Team",
+      "text": "Our trained staff uses proper safety equipment and advanced machines to deliver high-quality service."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-money",
+      "title": "Affordable & Transparent Pricing",
+      "text": "We offer competitive pricing with no hidden charges, making professional tank cleaning accessible for everyone."
     }
   ]
 }

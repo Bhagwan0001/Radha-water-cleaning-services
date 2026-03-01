@@ -19,7 +19,6 @@ export const Contact = (props) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
     
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
@@ -27,11 +26,15 @@ export const Contact = (props) => {
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
         (result) => {
-          console.log(result.text);
-          clearState();
+          if(true){
+            console.log(result.text);
+            clearState();
+          }
         },
         (error) => {
-          console.log(error.text);
+          if(true){
+            console.log(error.text);
+          }
         }
       );
   };
@@ -101,7 +104,7 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
-              <p>
+              <p style={{fontSize: '18px'}}>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
@@ -109,7 +112,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p>
+              <p style={{fontSize: '18px'}}>
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
@@ -117,7 +120,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p>
+              <p style={{fontSize: '18px'}}>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
