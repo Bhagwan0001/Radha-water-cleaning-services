@@ -15,26 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
         (result) => {
-          if(true){
-            console.log(result.text);
-            clearState();
-          }
+          console.log(result.text);
+          clearState();
         },
         (error) => {
-          if(true){
             console.log(error.text);
-          }
         }
       );
   };
@@ -62,6 +58,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
+                        value={name}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -76,6 +73,7 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
+                        value={email}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -90,8 +88,9 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
+                    value={message}
                     onChange={handleChange}
-                  ></textarea>
+                  />
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
@@ -104,7 +103,7 @@ export const Contact = (props) => {
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
-              <p style={{fontSize: '18px'}}>
+              <p style={{ fontSize: '18px' }}>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
@@ -112,7 +111,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p style={{fontSize: '18px'}}>
+              <p style={{ fontSize: '18px' }}>
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
@@ -120,7 +119,7 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className="contact-item">
-              <p style={{fontSize: '18px'}}>
+              <p style={{ fontSize: '18px' }}>
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
