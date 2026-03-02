@@ -49,7 +49,7 @@ export const Navigation = () => {
     handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [sectionIds]);   // ✅ FIX HERE
+  }, [sectionIds]); 
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
