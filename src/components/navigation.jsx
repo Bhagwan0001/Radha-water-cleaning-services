@@ -45,10 +45,10 @@ export const Navigation = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // initial check
+    handleScroll(); 
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sectionIds]);
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
