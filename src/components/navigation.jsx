@@ -1,15 +1,14 @@
-import React, { useEffect, useState } from "react";
-
+import React, { useEffect, useState, useMemo } from "react";
 export const Navigation = () => {
   const [active, setActive] = useState("features");
-  const sectionIds = [
+  const sectionIds = useMemo(() => [
     "features",
     "about",
     "services",
     "portfolio",
     "testimonials",
     "contact",
-  ];
+  ], []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,7 +47,7 @@ export const Navigation = () => {
     handleScroll(); 
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [sectionIds]);
+  }, []);
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
