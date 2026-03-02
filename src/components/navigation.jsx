@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useMemo } from "react";
+
 export const Navigation = () => {
   const [active, setActive] = useState("features");
+
   const sectionIds = useMemo(() => [
     "features",
     "about",
@@ -44,17 +46,21 @@ export const Navigation = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); 
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sectionIds]);   // ✅ FIX HERE
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          <a className="navbar-brand page-scroll" href="#page-top" style={{ fontSize: '24px', fontWeight: '700', textTransform: 'uppercase' }}>
-            <span className="highlight2" >Radha</span> Water Tank Cleaning and Services
+          <a
+            className="navbar-brand page-scroll"
+            href="#page-top"
+            style={{ fontSize: "24px", fontWeight: "700", textTransform: "uppercase" }}
+          >
+            <span className="highlight2">Radha</span> Water Tank Cleaning and Services
           </a>
         </div>
 
