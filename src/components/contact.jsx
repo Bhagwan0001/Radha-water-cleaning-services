@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
@@ -12,30 +11,17 @@ export const Contact = (props) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setState((prevState) => ({
+      ...prevState,
+      [name]: value
+    }));
   };
   const clearState = () => setState({ ...initialState });
 
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        e.target,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    clearState()
   };
 
   return (

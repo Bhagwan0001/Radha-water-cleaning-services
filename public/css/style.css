@@ -113,6 +113,16 @@ hr {
   transition: all 0.8s;
 }
 
+@media screen and (max-width: 568px) {
+  #menu {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.8s;
+  }
+}
+
 #menu.navbar-default {
   background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
@@ -130,7 +140,26 @@ hr {
 @media (max-width: 680px) {
   #menu a.navbar-brand {
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 18px !important;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 330px) {
+  #menu a.navbar-brand {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px !important;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 270px) {
+  #menu a.navbar-brand {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px !important;
     font-weight: 700;
     color: #333;
     text-transform: uppercase;
